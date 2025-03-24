@@ -1,4 +1,4 @@
-# audio-transcriber MCP Server
+# OpenAI Speech-to-Text transcriptions MCP Server
 
 A MCP server that provides audio transcription capabilities using OpenAI's API.
 
