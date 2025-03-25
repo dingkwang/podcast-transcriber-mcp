@@ -2,6 +2,10 @@
 
 A MCP server that provides audio transcription capabilities using OpenAI's API.
 
+<a href="https://glama.ai/mcp/servers/@Ichigo3766/audio-transcriber-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@Ichigo3766/audio-transcriber-mcp/badge" alt="Audio Transcriber Server MCP server" />
+</a>
+
 ## Installation
 
 ### Setup
