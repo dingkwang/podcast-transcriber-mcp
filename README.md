@@ -54,7 +54,3 @@ Replace `/path/to/audio-transcriber-mcp` with the actual path where you cloned t
   - Optional parameters:
     - save_to_file: Boolean to save transcription to a file
     - language: ISO-639-1 language code (e.g., "en", "es")
-
-## License
-
-[MIT]
