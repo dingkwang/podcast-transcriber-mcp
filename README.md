@@ -58,3 +58,7 @@ Replace `/path/to/audio-transcriber-mcp` with the actual path where you cloned t
   - Optional parameters:
     - save_to_file: Boolean to save transcription to a file
     - language: ISO-639-1 language code (e.g., "en", "es")
+
+## License
+
+This MCP server is licensed under the MIT License. This means you are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the LICENSE file in the project repository.
