@@ -114,9 +114,6 @@ Available commands:
 #### Example Interaction
 
 ```
-> fetch https://feeds.fireside.fm/steve/rss
-Fetching podcast feed: The Steve Austin Show (450 episodes)
-
 > list
 Recent episodes:
 1. Episode 450: Interview with The Rock (May 20, 2024)
@@ -131,7 +128,7 @@ Found 3 relevant episodes:
 2. Episode 327: Evolution of the WWE (Oct 15, 2023)
 3. Episode 298: Wrestling's Greatest Moments (Aug 2, 2023)
 
-> summarize 1
+> transcript 1
 Transcribing Episode 405: The Golden Era of Wrestling...
 [Summary will appear here]
 ```
