@@ -1,6 +1,6 @@
 # OpenAI Podcast Transcription MCP Server
 
-A MCP server that provides podcast RSS feed parsing, episode listing, and audio transcription capabilities using OpenAI's API.
+A MCP server that provides podcast RSS feed parsing, episode listing, and audio transcription capabilities using OpenAI's Whisper API.
 
 ## Installation
 
@@ -24,7 +24,7 @@ npm run build
 
 4. Set up your OpenAI API key in your environment variables.
 
-5. Add the server configuration to your environment:
+5. For Claude add this to your cluade mcp config file:
 
 ```json
 {
@@ -84,7 +84,7 @@ You can set up your Python environment using `uv`, a fast Python package install
 
 ```bash
 # Initialize a Python environment using uv
-uv init
+uv venv
 ```
 
 #### Running the Assistant
@@ -94,6 +94,7 @@ uv init
 uv run examples/podcast_assistant.py --rss-feed "https://anchor.fm/s/ef6e2aa4/podcast/rss"
 
 # Alternatively, you can use Python directly
+pip install openai-agents
 python examples/podcast_assistant.py --rss-feed "https://anchor.fm/s/ef6e2aa4/podcast/rss"
 ```
 
