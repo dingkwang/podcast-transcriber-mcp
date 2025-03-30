@@ -8,7 +8,7 @@ A MCP server that provides podcast RSS feed parsing, episode listing, and audio 
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
+git clone git@github.com:dingkwang/podcast-transcriber-mcp.git
 cd podcast-transcriber-mcp
 ```
 
