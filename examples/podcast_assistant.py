@@ -70,7 +70,7 @@ class PodcastAssistant:
         result = await Runner.run(
             starting_agent=self.agent,
             input=
-            f"Fetch the podcast RSS feed at {feed_url} and list the 10 most recent episodes. Format the list with numbers."
+            f"Fetch the podcast RSS feed at {feed_url} and list the 10 most recent episodes. Format the list with numbers, titles and durations."
         )
 
         # Store the feed URL
@@ -232,7 +232,7 @@ async def main():
         description="Interactive Podcast Assistant")
     parser.add_argument("--rss-feed",
                         type=str,
-                        help="Initial RSS feed URL. Search for your favorite podcasts on https://castos.com/tools/find-podcast-rss-feed",
+                        help="Provide a RSS feed URL. Search for your favorite podcasts on https://castos.com/tools/find-podcast-rss-feed",
                         required=True,
                         default="https://anchor.fm/s/ef6e2aa4/podcast/rss")
     args = parser.parse_args()
